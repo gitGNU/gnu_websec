@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-04T09:07:05.926152Z
+K 7
+svn:log
+V 57
+Rename indexl to index, remove HTML file it's generated!
+
+END

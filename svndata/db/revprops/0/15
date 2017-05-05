@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T14:56:30.330061Z
+K 7
+svn:log
+V 75
+Attempt to use the current directory as the base if it has url.list in it.
+
+END

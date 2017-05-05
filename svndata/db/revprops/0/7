@@ -1,0 +1,16 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-04-26T12:56:58.805422Z
+K 7
+svn:log
+V 182
+Start using Getopt::Long for parameters.
+This changed parameter format for webdiff.
+Added --base parameter for websec to specify base dir so that it won't be forced to be ~/.websec/
+
+END

@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-04T08:14:07.079492Z
+K 7
+svn:log
+V 75
+Use $addsubject instead of hardcoded "[websec]" (spotted by Trevor Boicey)
+
+END

@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-19T10:08:23.493196Z
+K 7
+svn:log
+V 58
+Wrap a subsection in a <topic> tag for easier maintenance
+
+END

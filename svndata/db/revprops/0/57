@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-06T06:24:49.993635Z
+K 7
+svn:log
+V 191
+Switch subversion repository dump to bzip2 compression, much smaller file.
+Change order of actions, do all local actions first, so that if something fails, we will update nothing in the net.
+
+END

@@ -1,0 +1,16 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T16:08:29.092560Z
+K 7
+svn:log
+V 100
+Redo Makefile:
+ - Use variables for directories
+ - Create man pages from executables during install
+
+END

@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-18T17:06:52.475890Z
+K 7
+svn:log
+V 157
+Handle "Content-Encoding: gzip" (compressed data from server), this requires Compress:Gzip but code is added to simply complain if the module isn't present.
+
+END

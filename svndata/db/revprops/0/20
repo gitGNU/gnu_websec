@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T15:53:54.959652Z
+K 7
+svn:log
+V 71
+Move webdiff manpage into the code, for the same reasons as for websec
+
+END

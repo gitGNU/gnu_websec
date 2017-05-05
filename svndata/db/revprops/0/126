@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-19T13:45:02.546576Z
+K 7
+svn:log
+V 72
+Move templates to different file and fix bug with snapshot file listing
+
+END

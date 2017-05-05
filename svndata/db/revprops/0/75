@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-09T19:31:46.764933Z
+K 7
+svn:log
+V 91
+Add EmailError option so the user can choose if he wants to receive error messages or not.
+
+END

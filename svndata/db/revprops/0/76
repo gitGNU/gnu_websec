@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-10T08:56:20.195425Z
+K 7
+svn:log
+V 245
+Create manpages from documentation in the README, also moved the documentation to the files themselves to localize changes.
+To accomplish all this added the __END__ finish identifier to url.list and ignore.list and added comments to ignore.list
+
+END

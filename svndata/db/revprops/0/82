@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-10T20:46:55.074130Z
+K 7
+svn:log
+V 168
+Add "ascii" color highlighting from Javier M. Mora. Instead of using color to highlight it uses ascii characters around the change.
+(Patch 1463 in Savannah - Modified)
+
+END

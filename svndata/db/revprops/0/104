@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-13T18:55:30.965972Z
+K 7
+svn:log
+V 164
+Fixed bug in usage of environment variables in configuration lines, also added ability to use multiple env vars in a single line such as:
+Email = ${USER}@${DOMAIN}
+
+END

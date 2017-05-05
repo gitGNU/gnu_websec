@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-05T16:01:47.333406Z
+K 7
+svn:log
+V 137
+When emailing a link (EmailLink feature), add the file:/// link too so a user can easily access it from his browser.
+(Savannah bug 3471)
+
+END

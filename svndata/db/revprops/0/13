@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T14:26:07.335887Z
+K 7
+svn:log
+V 193
+Insert websec manpage into websec, this allows using the --man option in websec to display the manpage, or --help to display the help, and both come from the same text to eliminate redundancy.
+
+END

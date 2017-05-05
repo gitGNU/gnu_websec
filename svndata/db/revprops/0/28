@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T20:11:13.237124Z
+K 7
+svn:log
+V 61
+PerlTidy the code to make it consistent with some formatting
+
+END

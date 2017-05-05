@@ -1,0 +1,16 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-08T18:34:33.144755Z
+K 7
+svn:log
+V 109
+Change formatting a bit
+ - Make a big install section out of three sections
+ - Print snapshot with it's date
+
+END

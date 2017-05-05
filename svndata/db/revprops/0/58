@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-06T06:34:10.260028Z
+K 7
+svn:log
+V 67
+Make it possible to do local update only without actuall uploading
+
+END

@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-19T16:05:48.670278Z
+K 7
+svn:log
+V 97
+Fix spelling mistakes (thanks to vimspell and ispell)
+Add a paragraph before competitors section
+
+END

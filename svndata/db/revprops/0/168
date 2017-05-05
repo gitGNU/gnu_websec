@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2005-01-02T01:43:28.389852Z
+K 7
+svn:log
+V 142
+Use temporary file names from File::Temp so that multiple websecs for different
+url.list's will work correctly. Fixes bug #11474 in Savannah.
+
+END

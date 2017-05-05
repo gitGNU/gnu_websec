@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-10T09:06:18.901365Z
+K 7
+svn:log
+V 70
+When doing a release, automatically update the site and the dump file
+
+END

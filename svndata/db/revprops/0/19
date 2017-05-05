@@ -1,0 +1,15 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-02T15:16:52.970569Z
+K 7
+svn:log
+V 117
+Change example e-mail addresses to ones that are reserved for examples.
+Remove non-existing links from the examples.
+
+END

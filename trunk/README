@@ -1,0 +1,116 @@
+WEB SECRETARY
+
+
+1. OVERVIEW
+
+Web Secretary is a web page monitoring software. However, it goes beyond the
+normal functionalities offered by such software. Not only does it detect
+changes based on content analysis (instead of date/time stamp or simple
+textual comparison), it will email the changed page to you WITH THE NEW
+CONTENT HIGHLIGHTED!
+
+Web Secretary is actually a suite of two Perl scripts called websec and
+webdiff. websec retrieves web pages and email them to you based on a URL
+list that you provide. webdiff compares two web pages (current and archive)
+and creates a new page based on the current page but with all the
+differences highlighted using a predefined color.
+
+Personally, I put Web Secretary on crontab to monitor a large number of web
+pages. When the highlighted pages are delivered to me, I use procmail to
+sort them out and file them into another folder. Sometimes, when I am busy,
+I will not have time to accessing the web for a few days. However, with Web
+Secretary, I can always access the "archive" that it has created for me at
+my own leisure.
+
+
+2. DEPENDENCIES
+
+Web Secretary should be able to run on all Unix systems with a Perl
+interpreter (and LWP module) installed. At present, it has only been tested
+on Linux. Users report that it works on Windows too using ActiveState Perl.
+
+
+3. INSTALLATION AND CONFIGURATION
+
+Installing Web Secretary is easy.
+
+- Un-tar the distribution. The files will be uncompressed into a directory
+  called websec/.
+
+- Change directory to websec/.
+
+- Edit the first lines in websec and webdiff to reflect the actual location
+  of the Perl interpreter on your system.
+
+- Edit the URL list called url.list. Please refer to SECTION 5 for more
+  information on this.
+
+- Edit the ignore keyword/URL file "ignore.list". Please refer to SECTION 6
+  and 7 for more information on this file.
+
+
+4. USAGE 
+
+You can run Web Secretary whenever you want to monitor the changes in your
+URL list by typing 'websec'.
+
+Alternatively, you can add Web Secretary to your crontab and run it on a
+regular basis (eg. daily). You can even have different URL list files and
+run them at different intervals (eg. hourly, daily, weekly etc.)
+
+It goes without saying that you can use Web Secretary to monitor its own
+homepage so that you can be informed of the latest news and updates.
+
+Web Secretary is available at:   http://www.nongnu.org/websec/
+
+
+5. DIGEST
+
+This feature is contributed by Matti Airas:
+
+> Hi,
+
+> I noticed a small bug in websec. Since I'm using a text-based MUA, I'm
+> not interested in getting the HTML pages, but only the notifications.
+> However, on line 214 the recipient email address is $email, not
+> $emailLink.
+
+> Also, since I found the separate notification mails inconvenient, I
+> implemented a new configuration variable "Digest = false|true", which
+> makes the notifications to come in a single email.
+
+> The modified file is attached to this mail. I hope you find it useful.
+
+> --
+> Matti Airas
+
+
+6. INSTALLING LWP
+
+Websec requires the Perl module 'LWP' to work. The quickest way to install
+this module is to type:
+
+> perl -MCPAN -e 'install Bundle::LWP'
+
+at the command line.
+
+Thanks to Jeff for contributing this tip!
+
+
+7. ACKNOWLEDGEMENT
+
+I would like to thank the GNU people. I don't know them personally, but they
+have blessed us with free and great tools such as Linux, gcc, emacs, Perl,
+fetchmail etc. which I now use on a daily basis. In the trails of their
+selfless spirit, I will also like to share Web Secretary in the same way,
+and hope many people besides me find it useful.
+
+I would also like to thank Chng Tiak Jung, a friend and mentor who inspires
+me to learn at least one new thing everyday. I am sure if he continues at
+his current pace, I will never be able to catch up with him!
+
+The article "Some Simpler Applications Using LWP" (http://webreview.com/wr/
+pub/97/12/12/bookshelf/index.html) by Clinton Wong in webreview.com inspired
+me to modify Web Secretary to use the LWP library for HTTP retrieval and
+email transmission.
+

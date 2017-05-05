@@ -1,0 +1,14 @@
+K 10
+svn:author
+V 6
+baruch
+K 8
+svn:date
+V 27
+2003-05-04T08:23:12.330696Z
+K 7
+svn:log
+V 79
+Fix erroneous coloring of changes, the equal sign was added to the color name!
+
+END
